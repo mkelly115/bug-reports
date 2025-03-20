@@ -22,7 +22,7 @@ export default function ticketReducer(state, action) {
         editingTicket: action.payload,
       };
 
-    case 'SCLEAR_EDITING_TICKET':
+    case 'CLEAR_EDITING_TICKET':
       return {
         ...state,
         editingTicket: null,
