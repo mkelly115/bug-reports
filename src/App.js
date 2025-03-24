@@ -20,6 +20,7 @@ function App() {
         <TicketForm
           dispatch={dispatch}
           editingTicket={state.editingTicket}
+          // Maybe add a way to store locally?
         />
 
         {state.tickets.length > 0 && (
@@ -35,6 +36,7 @@ function App() {
             />
           </div>
         )}
+
       </div>
     </div>
   );
